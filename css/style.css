@@ -1,0 +1,189 @@
+body, h1, h2, h3, p, ul, li, form{
+  margin: 0;
+  padding: 0;
+}
+.article:hover {
+  font-size: 110%; /* Увеличьте размер шрифта при наведении */
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button[type="submit"] {
+  background-color: #2c2a2a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.collapse navbar-collapse navbar nav{
+ margin-right: 300px;
+}
+
+.article-content-container {
+  float: left; /* Float the content container to the left */
+  width: 40%; /* Adjust the width as needed */
+}
+
+.article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the article title */
+.article-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the article author */
+.article-author {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Style for the article content */
+.article-content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+img {
+  align-content: center;
+  max-width: 100%;
+}
+header img{
+  width: 50px;
+  height: auto;
+  float: left;
+  margin-left: 10px;
+}
+p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+article {
+  width: 100%; /* Set the article width to 100% to occupy the full screen width */
+  max-width: none; /* Disable the maximum width constraint */
+  margin: 0 auto; /* Center the article content horizontally (optional) */
+  padding: 20px; /* Add padding to the article content (optional) */
+  box-sizing: border-box; /* Include padding in the total width */
+}
+article p{
+  font-size: 20px;
+}
+
+
+
+.progress {
+  height: 4px;
+  background-color: #007bff; /* Change the color as needed */
+}
+
+
+
+.fa-arrow-down {
+  position: absolute;
+  right: -15px;
+  top: -8px;
+}
+
+article {
+  width: 100%; /* Set the article width to 100% to occupy the full screen width */
+  max-width: none; /* Disable the maximum width constraint */
+  margin: 0 auto; /* Center the article content horizontally (optional) */
+  padding: 20px; /* Add padding to the article content (optional) */
+  box-sizing: border-box; /* Include padding in the total width */
+}
+article p{
+  font-size: 20px;
+}
+
+.enlarge-on-hover {
+  transition: transform 0.2s;
+}
+.enlarge-on-hover:hover {
+  transform: scale(1.05);
+}
+
+.disappear-animation {
+  animation-name: disappear;
+  animation-duration: 1s;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+
+.reading-progress {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  background: #04AA6D;
+
+}
+
+
+.html {
+  scroll-behavior: smooth;
+}
+
+.to-top {
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color: #1f1f1f;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+  z-index: 100;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}

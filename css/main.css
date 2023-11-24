@@ -1,0 +1,239 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form{
+  margin: 0;
+  padding: 0;
+}
+
+.article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the article title */
+.article-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the article author */
+.article-author {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Style for the article content */
+.article-content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: 10px;
+  font-size: large;
+  font-family: "Inter Semi Bold", serif;
+}
+
+
+section {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+article {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+header img{
+  width: 50px;
+  height: auto;
+  float: left;
+  margin-left: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Style the sidebar */
+aside {
+  width: 30%;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-bar button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+article {
+  width: 100%; /* Set the article width to 100% to occupy the full screen width */
+  max-width: none; /* Disable the maximum width constraint */
+  margin: 0 auto; /* Center the article content horizontally (optional) */
+  padding: 20px; /* Add padding to the article content (optional) */
+  box-sizing: border-box; /* Include padding in the total width */
+}
+article p{
+  font-size: 20px;
+}
+
+/* Style for the article title */
+.article-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style for the article author */
+.article-author {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+/* Style for the article content */
+.article-content {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.newsletter {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: rgb(23, 4, 4);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(0, 0, 0, 0.2); /* Darker color on hover */
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%; /* Set the table to take up 100% of available width */
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+/* Style the ordered list within table cells */
+table ol {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+table ol li {
+  list-style-type: decimal;
+  margin-bottom: 6px;
+}
+
+/* Style table header cells */
+table th {
+  background-color: #f2f2f2;
+}
+
+/* Style table rows */
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-container {
+  float: left; /* Float the table container to the left */
+  width: 60%; /* Adjust the width as needed */
+}
+
+.article-content-container {
+  float: left; /* Float the content container to the left */
+  width: 40%; /* Adjust the width as needed */
+}
